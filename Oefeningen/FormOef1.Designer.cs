@@ -54,11 +54,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(186, 62);
             this.Controls.Add(this.cbMijnGetallen);
             this.Controls.Add(this.lblGetal);
             this.Name = "FormOef1";
-            this.Text = "FormOef1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Oefening 1";
             this.Load += new System.EventHandler(this.FormOef1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

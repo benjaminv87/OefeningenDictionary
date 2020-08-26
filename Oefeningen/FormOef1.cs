@@ -31,15 +31,17 @@ namespace Oefeningen
             mijnGetallen.Add(9, "negen");
             mijnGetallen.Add(10, "Tien");
 
-            cbMijnGetallen.DataSource = new BindingSource(mijnGetallen,null);
+            cbMijnGetallen.DataSource = new BindingSource(mijnGetallen, null);
             cbMijnGetallen.DisplayMember = "Key";
             cbMijnGetallen.ValueMember = "Value";
+
 
         }
 
         private void cbMijnGetallen_SelectedIndexChanged(object sender, EventArgs e)
         {
             KeyValuePair<int, string> pair = (KeyValuePair<int, string>)cbMijnGetallen.SelectedItem;
+
             lblGetal.Text = pair.Value;
         }
     }

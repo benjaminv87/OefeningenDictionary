@@ -76,6 +76,12 @@
     <Compile Include="FormOef4.Designer.cs">
       <DependentUpon>FormOef4.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormVoegWoordToe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVoegWoordToe.Designer.cs">
+      <DependentUpon>FormVoegWoordToe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -83,6 +89,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormOef1.resx">
       <DependentUpon>FormOef1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOef2.resx">
+      <DependentUpon>FormOef2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVoegWoordToe.resx">
+      <DependentUpon>FormVoegWoordToe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
