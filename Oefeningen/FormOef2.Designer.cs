@@ -57,7 +57,7 @@
             // tbVertaald
             // 
             this.tbVertaald.Enabled = false;
-            this.tbVertaald.Location = new System.Drawing.Point(15, 69);
+            this.tbVertaald.Location = new System.Drawing.Point(15, 65);
             this.tbVertaald.Name = "tbVertaald";
             this.tbVertaald.Size = new System.Drawing.Size(121, 20);
             this.tbVertaald.TabIndex = 4;
@@ -65,7 +65,7 @@
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(12, 53);
+            this.Label2.Location = new System.Drawing.Point(12, 49);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(48, 13);
             this.Label2.TabIndex = 5;
@@ -73,7 +73,7 @@
             // 
             // btnWoordToevoegen
             // 
-            this.btnWoordToevoegen.Location = new System.Drawing.Point(15, 119);
+            this.btnWoordToevoegen.Location = new System.Drawing.Point(15, 142);
             this.btnWoordToevoegen.Name = "btnWoordToevoegen";
             this.btnWoordToevoegen.Size = new System.Drawing.Size(121, 23);
             this.btnWoordToevoegen.TabIndex = 6;
@@ -83,7 +83,7 @@
             // 
             // btnVerwijder
             // 
-            this.btnVerwijder.Location = new System.Drawing.Point(15, 148);
+            this.btnVerwijder.Location = new System.Drawing.Point(15, 171);
             this.btnVerwijder.Name = "btnVerwijder";
             this.btnVerwijder.Size = new System.Drawing.Size(121, 23);
             this.btnVerwijder.TabIndex = 7;
@@ -95,7 +95,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(529, 325);
+            this.ClientSize = new System.Drawing.Size(159, 202);
             this.Controls.Add(this.btnVerwijder);
             this.Controls.Add(this.btnWoordToevoegen);
             this.Controls.Add(this.Label2);

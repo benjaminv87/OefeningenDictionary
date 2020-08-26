@@ -76,6 +76,12 @@
     <Compile Include="FormOef4.Designer.cs">
       <DependentUpon>FormOef4.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormVoegWoordenToe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVoegWoordenToe.Designer.cs">
+      <DependentUpon>FormVoegWoordenToe.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormVoegWoordToe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormOef2.resx">
       <DependentUpon>FormOef2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOef3.resx">
+      <DependentUpon>FormOef3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVoegWoordenToe.resx">
+      <DependentUpon>FormVoegWoordenToe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormVoegWoordToe.resx">
       <DependentUpon>FormVoegWoordToe.cs</DependentUpon>

@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Oefeningen
@@ -31,13 +25,13 @@ namespace Oefeningen
 
         private void cbTeVertalen_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbTeVertalen.DataSource != null && cbTeVertalen.SelectedIndex>-1)
+            if (cbTeVertalen.DataSource != null && cbTeVertalen.SelectedIndex > -1)
             {
                 KeyValuePair<string, string> pair = (KeyValuePair<string, string>)cbTeVertalen.SelectedItem;
                 tbVertaald.Text = pair.Value;
             }
             else tbVertaald.Text = string.Empty;
-            btnVerwijder.Enabled = cbTeVertalen.SelectedIndex > -1 ? true:false;
+            btnVerwijder.Enabled = cbTeVertalen.SelectedIndex > -1 ? true : false;
         }
 
         private void btnVerwijder_Click(object sender, EventArgs e)
@@ -47,6 +41,7 @@ namespace Oefeningen
             {
                 KeyValuePair<string, string> pair = (KeyValuePair<string, string>)cbTeVertalen.SelectedItem;
                 mijnWoordenboek.Remove(pair.Key);
+
                 updateComboBox();
             }
         }
@@ -65,14 +60,15 @@ namespace Oefeningen
 
         private void btnWoordToevoegen_Click(object sender, EventArgs e)
         {
-            using(FormVoegWoordToe form = new FormVoegWoordToe())
+            using (FormVoegWoordToe form = new FormVoegWoordToe())
             {
                 if (form.ShowDialog() == DialogResult.OK)
                 {
-                    mijnWoordenboek.Add(form.nederlands,form.engels);
+                    mijnWoordenboek.Add(form.nederlands, form.engels);
                     updateComboBox();
                 }
             }
         }
+
     }
 }
